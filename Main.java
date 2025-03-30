@@ -34,6 +34,7 @@ public class Main {
                 }
                 case "S" -> {
                     System.out.println("Parando cronômetro...");
+                    cronometro.parar();
                 }
                 default -> {
                     System.out.println("Escolha um opção válida.");
